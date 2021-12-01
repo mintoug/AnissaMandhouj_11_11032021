@@ -6,9 +6,10 @@ import HeroHome from '../../assets/HeroHome.png'
 class HeroHomePage extends Component {
     render() {
         return (
-            <div>
+            <div className="heroBanner">
                 <img src= {HeroHome} alt="paysage forêt" className="heroHome"/>
-                <p>Chez vous, partout et ailleurs</p>
+                <div className='heroBannerWrapper'></div>
+                <h2 className="heroText">Chez vous, partout et ailleurs</h2>
 
             </div>
         )

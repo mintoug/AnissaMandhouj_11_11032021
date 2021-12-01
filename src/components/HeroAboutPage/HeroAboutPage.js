@@ -6,7 +6,7 @@ class HeroAboutPage extends Component {
     render() {
         return (
             <div>
-                <img src={heroAbout} alt="montagnes" />
+                <img src={heroAbout} alt="montagnes" className="imgAbout"/>
             </div>
         )
     }

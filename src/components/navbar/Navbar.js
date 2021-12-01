@@ -7,8 +7,10 @@ export default class Navbar extends Component {
     render() {
         return (
             <header>
-            <img src={logo} alt="kasa"></img>
-            <nav>
+                <Link to="/">
+                <img src={logo} alt="kasa" className="logo" />
+                </Link>
+            <nav className="navbarHeader">
                 <Link to ="/" className="linkHomePage">Accueil</Link>
                 <Link to ="/About" className="linkAboutPage">A propos</Link>
             </nav>
