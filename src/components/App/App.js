@@ -15,9 +15,10 @@ class App extends Component {
                 <Routes>
                      
                  <Route path ='/' element= {<HomePage />}/>
-                 <Route path ='/apartment' element ={<ApartmentPage />} />                     
+                 <Route path ='/apartment' element ={<ApartmentPage />} />  
+                 <Route path="/apartment/:id" element = {<ApartmentPage />}/>                   
                  <Route path ='/about' element = {<AboutPage />} />
-                 <Route path ="*" element = {<Error404 />} />  
+                 <Route path = '*' element = {<Error404 />} />  
 
                 </Routes>
               <Footer /> 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import './Error404.css'
 
 export default class Error404 extends Component {
     render() {
