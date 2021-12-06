@@ -1,12 +1,18 @@
 import React, { Component } from 'react'
-import data from '../../datas/datas.js'
-import './Apartment.css'
+import { Link } from 'react-router-dom'
 
 class ApartmentCard extends Component {
+
+
     render() {
         return (
             <div>
-            <img src={data.pictures[0]} alt =''/>
+                <Link to={`apartment/${this.props.id}`} className="GalleryApartmentBox">
+                <img src={this.props.cover} alt={this.props.title} className='galleryApartmentImg'/>
+                <div className="galleryOpacityDiv"></div>
+                    <h2>{this.props.title}</h2>
+            
+                </Link>
             </div>
         )
     }
