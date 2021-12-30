@@ -1,5 +1,5 @@
-@import '../../components/Collaps/Collaps.css';
-@import '../../components/HeroAboutPage/HeroAboutPage.css';
+@import '../../components/collaps/Collaps.css';
+@import '../../components/heroAboutPage/HeroAboutPage.css';
 
 @media (min-width : 651px) and (max-width : 1200px) { 
     .about .collapsibleArticle {

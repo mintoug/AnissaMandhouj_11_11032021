@@ -1,10 +1,10 @@
-@import '../../components/Slides/Slides.css';
-@import '../../components/Rating/Rating.css';
-@import '../../components/Title/Title.css';
-@import '../../components/Local/Local.css';
-@import '../../components/Profil/Profil.css';
-@import '../../components/Tag/Tag.css';
-@import '../../components/Collaps/Collaps.css';
+@import '../../components/slides/Slides.css';
+@import '../../components/rating/Rating.css';
+@import '../../components/title/Title.css';
+@import '../../components/local/Local.css';
+@import '../../components/profil/Profil.css';
+@import '../../components/tag/Tag.css';
+@import '../../components/collaps/Collaps.css';
  
 
 .apartmentBox {
@@ -24,7 +24,7 @@
 
 .apartmentCollapsible .collapsibleVisible,
 .apartmentCollapsible .collapsibleContent {
-    width: 36.375rem;
+    width: 42rem;
     padding: 0;
 }
 
@@ -47,10 +47,12 @@
 }
 @media screen and (max-width: 650px) {
     .apartmentBox {
-        max-width: 100%;
+        width: 100%;
         margin-top: 1rem;
     }
-
+    .apartmentBoxAside{
+        margin-top: 1rem;
+    }
     .apartmentCollapsible {
         display: flex;
         flex-direction: column;

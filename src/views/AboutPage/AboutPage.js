@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { aboutData } from '../../datas/aboutData'
-import HeroAboutPage from '../../components/HeroAboutPage/HeroAboutPage'
-import Collaps from '../../components/Collaps/Collaps'
+import HeroAboutPage from '../../components/heroAboutPage/HeroAboutPage'
+import Collaps from '../../components/collaps/Collaps'
 import './AboutPage.css'
 export default class AboutPage extends Component {
     render() {

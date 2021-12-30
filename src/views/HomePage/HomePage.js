@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ApartmentCard from '../../components/ApartmentCard/ApartmentCard';
-import HeroHomePage from '../../components/HeroHomePage/HeroHomePage'
+import HeroHomePage from '../../components/heroHomePage/HeroHomePage'
 import {data} from '../../datas/data';
 import './HomePage.css';
 

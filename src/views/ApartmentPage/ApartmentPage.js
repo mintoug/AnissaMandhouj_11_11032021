@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import './ApartmentPage.css';
-import Title from '../../components/Title/Title';
-import Tag from '../../components/Tag/Tag';
-import Local from '../../components/Local/Local';
-import Profil from '../../components/Profil/Profil';
-import Collaps from '../../components/Collaps/Collaps'
-import Rating from '../../components/Rating/Rating';
-import Slides from '../../components/Slides/Slides';
+import Title from '../../components/title/Title';
+import Tag from '../../components/tag/Tag';
+import Local from '../../components/local/Local';
+import Profil from '../../components/profil/Profil';
+import Collaps from '../../components/collaps/Collaps'
+import Rating from '../../components/rating/Rating';
+import Slides from '../../components/slides/Slides';
+import { Redirect } from "react-router-dom";
  class ApartmentPage extends Component {
     constructor(props) {
         super(props)
@@ -45,6 +46,7 @@ import Slides from '../../components/Slides/Slides';
  
     render() {
 
+        if (!this.props.apartments.some((apt) => apt.id === this.props.match.params.id)) return <Redirect to="/404" />
         return (
             
             <main>

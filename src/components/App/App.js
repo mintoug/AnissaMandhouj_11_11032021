@@ -3,10 +3,10 @@ import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import  {data} from '../../datas/data';
 import Footer from '../footer/Footer';
 import Navbar from '../navbar/Navbar';
-import HomePage from '../../views/HomePage/HomePage'
-import ApartmentPage from '../../views/ApartmentPage/ApartmentPage'
-import AboutPage from '../../views/AboutPage/AboutPage'
-import Error404 from '../Error404/Error404';
+import HomePage from '../../views/homePage/HomePage'
+import ApartmentPage from '../../views/apartmentPage/ApartmentPage'
+import AboutPage from '../../views/aboutPage/AboutPage'
+import Error404 from '../error404/Error404';
 class App extends Component {
     render() {
         return (

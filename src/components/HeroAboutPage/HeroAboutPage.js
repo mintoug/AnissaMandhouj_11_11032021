@@ -5,9 +5,10 @@ import './HeroAboutPage.css'
 class HeroAboutPage extends Component {
     render() {
         return (
-            <div>
-                <img src={heroAbout} alt="montagnes" className="imgAbout"/>
-            </div>
+           <section className='aboutHero'>
+                <img src={heroAbout} alt='aboutHeroImg' className='aboutHeroImg'></img>
+                <div className='aboutHeroWrapper'></div>
+            </section>
         )
     }
 }
